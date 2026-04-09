@@ -1,0 +1,108 @@
+.project-card {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.project-card-header { display: flex; flex-direction: column; gap: 4px; }
+.project-card-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.project-card-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  transition: var(--transition);
+}
+.project-card-title:hover { color: var(--primary-light); }
+.project-card-student {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.project-card-desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.project-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: rgba(108, 99, 255, 0.1);
+  color: var(--primary-light);
+  border: 1px solid rgba(108, 99, 255, 0.2);
+}
+.project-card-progress {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.progress-bar-track {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.progress-bar-fill {
+  height: 100%;
+  background: var(--gradient-primary);
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+.project-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-color);
+}
+.project-card-date {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.project-card-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card-icon-link {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-glass);
+  color: var(--text-secondary);
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+.card-icon-link:hover {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.card-view-btn {
+  padding: 8px 18px;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+dist/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Env
+.env
+.env.local
+.env.production
+
+# Logs
+*.log

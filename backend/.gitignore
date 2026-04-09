@@ -1,0 +1,20 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Uploads (local files)
+uploads/
+
+# Environment
+.env
+application-prod.properties
