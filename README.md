@@ -7,7 +7,7 @@ A full-stack web application for students to manage and showcase projects.
 - **Backend**: Spring Boot 3 + Java 17
 - **Database**: MySQL
 
-## Run Locally
+## Run Locall
 
 ### Backend
 ```bash
